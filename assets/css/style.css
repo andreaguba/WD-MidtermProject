@@ -1,0 +1,72 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photobooth.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photoboothcropped.jpg");
+    background-repeat: no-repeat;
+}
+.border{
+    border-right: 2rem, solid,white;
+    border-radius: 5;
+    margin: 1rem;
+}
+.hero-text{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .containerA{
+    display: flex;
+  }
+
+  .headerA-container{
+        background-color: beige;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+  }
+  .headerA-container img{
+    border-radius: 0%;
+  }
+  .headerB-container{
+        background-color: aqua;
+        padding: 2rem;
+        list-style: none;
+
+  }
+  .containerA{
+    display: flex;
+  }
+
+  .container{
+    display: flex;
+  }
+  .left{
+    background-color: beige;
+    padding: 2rem;
+    list-style: none;
+  }
+  .right{
+    background-color: aquamarine;
+    padding: 2rem;
+  }
+  .gallery{
+    display: flex;
+    padding: 2rem;
+  }
+  img{
+    width: 30%;
+    margin-left: 1.5rem;
+  }
