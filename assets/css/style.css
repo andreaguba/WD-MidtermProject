@@ -7,15 +7,24 @@
     background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photobooth.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
   }
+
+.h1, h2, h3, h4{
+    font-family: "Bebas Neue", sans-serif;
+
+}
 .hero-image{
     background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photoboothcropped.jpg");
     background-repeat: no-repeat;
 }
 .border{
-    border-right: 2rem, solid,white;
-    border-radius: 5;
-    margin: 1rem;
+    border: .2rem, solid,white;
+    border-radius: 5px;
+    margin: 3rem;
+    height: 10rem;
 }
 .hero-text{
     font-family: "Bebas Neue", sans-serif;
@@ -34,17 +43,19 @@
   .headerA-container{
         background-color: beige;
         margin: 0;
-        padding: 0;
+        padding: 2rem 5rem;
         list-style: none;
+        width: 10vw;
   }
   .headerA-container img{
     border-radius: 0%;
+    width: 10vw;
   }
   .headerB-container{
         background-color: aqua;
         padding: 2rem;
         list-style: none;
-
+        width: 90vw;
   }
   .containerA{
     display: flex;
@@ -55,7 +66,9 @@
   }
   .left{
     background-color: beige;
-    padding: 2rem;
+    margin: 1rem, 30rem;
+    padding: 2rem 10rem;
+    
     list-style: none;
   }
   .right{
