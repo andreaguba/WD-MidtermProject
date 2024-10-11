@@ -3,83 +3,109 @@
     font-weight: 400;
     font-style: normal;
   }
-  body{
-    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photobooth.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-size: 25px;
-    align-items: center;
-    justify-content: center;
+
+.caveat{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
   }
-
-.h1, h2, h3, h4{
-    font-family: "Bebas Neue", sans-serif;
-
-}
-.hero-image{
-    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.65)),url("../../assets/img/photoboothcropped.jpg");
-    background-repeat: no-repeat;
-}
-.border{
-    border: .2rem, solid,white;
-    border-radius: 5px;
-    margin: 3rem;
-    height: 10rem;
-}
-.hero-text{
-    font-family: "Bebas Neue", sans-serif;
+  .nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
-    font-size: 50px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-style: normal;
+  }
+  
+  .nanum-myeongjo-bold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .nanum-myeongjo-extrabold {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+/* background */
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url("../../assets/img/photobooth.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
 }
 
-  .containerA{
-    display: flex;
-  }
+/* text-formatting */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
 
-  .headerA-container{
-        background-color: beige;
-        margin: 0;
-        padding: 2rem 5rem;
-        list-style: none;
-        width: 10vw;
-  }
-  .headerA-container img{
-    border-radius: 0%;
-    width: 10vw;
-  }
-  .headerB-container{
-        background-color: aqua;
-        padding: 2rem;
-        list-style: none;
-        width: 90vw;
-  }
-  .containerA{
-    display: flex;
-  }
+/* text-styles */
+.intro{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 90px;
+  color:white;
+  position: fixed;
+}
 
-  .container{
-    display: flex;
-  }
-  .left{
-    background-color: beige;
-    margin: 1rem, 30rem;
-    padding: 2rem 10rem;
-    
-    list-style: none;
-  }
-  .right{
-    background-color: aquamarine;
-    padding: 2rem;
-  }
-  .gallery{
-    display: flex;
-    padding: 2rem;
-  }
-  img{
-    width: 30%;
-    margin-left: 1.5rem;
-  }
+/* body-formatting */
+.mainbody{
+  display: flex;
+  position: absolute;
+  background-color: rgb(139, 35, 35);
+  border-radius: 50px;
+  margin: 0;
+  padding: 10vh 100vh 0 0 ;
+  max-width: 800vh;
+  top: 105vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* body content*/
+.headerA{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+}
+.subheaderA{
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 50px;
+}
+
+.handwriting{
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  transform: rotate(15deg);
+  position: absolute;
+  top: 33vh;
+  left: 81vh;
+}
+.header{
+  position: relative;
+  left: 17vh;
+  line-height: 1vh;
+}
+
+/* image*/
+.pfp{
+  border-top: 2rem;
+  border-left: 2rem;
+  border-bottom: 9rem;
+  border-right: 2rem;
+  border-style: solid;
+  border-color: white;
+  width: 25%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 75vh;
+  transform: rotate(15deg);
+  margin: 0;
+  padding: 0;
+}
