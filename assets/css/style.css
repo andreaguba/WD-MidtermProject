@@ -1,32 +1,23 @@
 .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-.caveat{
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  .nanum-myeongjo-regular {
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .nanum-myeongjo-bold {
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .nanum-myeongjo-extrabold {
-    font-family: "Nanum Myeongjo", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
+.afacad-flux {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* background */
 body{
@@ -46,53 +37,28 @@ body{
   height: 100vh;
 }
 
-/* text-styles */
-.intro{
+/* setting fonts */
+h1{
   font-family: "Bebas Neue", sans-serif;
-  font-size: 90px;
-  color:white;
-  position: fixed;
+  font-weight: 100;
 }
 
-/* body-formatting */
-.mainbody{
-  display: flex;
-  position: absolute;
-  background-color: rgb(139, 35, 35);
-  border-radius: 50px;
-  margin: 0;
-  padding: 10vh 100vh 0 0 ;
-  max-width: 800vh;
-  top: 105vh;
-  align-items: center;
-  justify-content: center;
+h2, p{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 300;
 }
 
-/* body content*/
-.headerA{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 100px;
-}
-.subheaderA{
-  font-family: "Nanum Myeongjo", serif;
-  font-size: 50px;
-}
-
+/* design 1 */
 .handwriting{
-  font-family: "Caveat", cursive;
-  font-size: 50px;
-  transform: rotate(15deg);
   position: absolute;
-  top: 33vh;
-  left: 81vh;
-}
-.header{
-  position: relative;
-  left: 17vh;
-  line-height: 1vh;
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 100;
+  font-size: 3vh;
+  bottom: 36.5vh;
+  right: 32.5vh;
+  transform: rotate(15deg);
 }
 
-/* image*/
 .pfp{
   border-top: 2rem;
   border-left: 2rem;
@@ -100,12 +66,132 @@ body{
   border-right: 2rem;
   border-style: solid;
   border-color: white;
-  width: 25%;
+  width: 20%;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 75vh;
+  position: relative;
+  top: 50vh;
+  left: 30vh;
   transform: rotate(15deg);
   margin: 0;
   padding: 0;
 }
+
+/* text-styles */
+.intro{
+  color:white;
+  position: fixed;
+  line-height: 1vh;
+}
+
+.guide{
+  position: relative;
+  display: grid;
+  line-height: 3.5vh;
+  color: black;
+  background-color: rgb(255, 240, 223);
+  margin: 0;
+  padding: 5vh 5.5vh;
+  border-radius: 50%;
+  top: 35vh;
+}
+
+.introA{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20vh;
+}
+
+.containerA{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.introB{
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 100;
+  font-size: 2.5vh;
+  word-spacing: 10px;
+}
+
+/* body-formatting */
+.mainbody{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  max-width: 800vh;
+  top: 65vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerA{
+  position: relative;
+  font-size: 10vh;
+  top: 2vh;
+  right: 25vh;
+}
+
+.subheaderA{
+  position: relative;
+  font-size: 3.5vh;
+  bottom: 7vh;
+  right: 25vh;
+}
+
+
+.containerB{
+  padding: 3vh 20vh;
+  background-color: aliceblue;
+  width: 50%;
+}
+
+.first{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+.second{
+  position: relative;
+  background-color: rgb(11, 22, 0);
+  color: rgb(255, 240, 223);
+
+}
+
+.headerB{
+  position: relative;
+  font-size: 10vh;
+  text-align: right;
+  line-height: 10vh;
+  letter-spacing: .2vh;
+}
+
+.subcontainerA{
+  position: relative;
+  left: 10vh;
+}
+
+.desc{
+  margin: 1vh 0 3vh 0;
+  padding: 0;
+  position: relative;
+  font-size: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.imgB{
+  width: 30%;
+  height: auto;
+  position: relative;
+  top: 50vh;
+  right: 30vh;
+}
+
+

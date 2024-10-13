@@ -1,0 +1,101 @@
+/* body-formatting */
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(139, 35, 35);
+    border-radius: 50px;
+    margin: 0;
+    padding: 10vh 100vh 0 0 ;
+    max-width: 800vh;
+    top: 105vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* body content*/
+  .headerA{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+  }
+  .subheaderA{
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 50px;
+  }
+  
+  .handwriting{
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+    transform: rotate(15deg);
+    position: absolute;
+    top: 33vh;
+    left: 81vh;
+  }
+  .header{
+    position: relative;
+    left: 17vh;
+    line-height: 1.3vh;
+    text-align: center;
+  }
+  
+.containerB{
+  position: relative;
+  top:14vh
+}
+
+  /* image*/
+  .pfp{
+    border-top: 2rem;
+    border-left: 2rem;
+    border-bottom: 9rem;
+    border-right: 2rem;
+    border-style: solid;
+    border-color: white;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: 45vh;
+    left: 80vh;
+    transform: rotate(15deg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .educ{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first, .second{
+    flex: 1;
+  }
+  
+  .first{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  
+  .second{
+    background-color: rgb(255, 240, 223);
+    color: rgb(0, 0, 0);
+    padding: 5vh 70vh;
+    margin: 0;
+  }
+
+  
+  .gallery{
+    background-color: rgb(7, 19, 0);
+    color: rgb(255, 240, 223);
+    padding: 0 70vh;
+    margin: 0;
+  }
+  
+  img{
+    width: 15%;
+    height: auto;
+  }
+
+  
