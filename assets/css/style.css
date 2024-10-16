@@ -1,24 +1,3 @@
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.afacad-flux {
-  font-family: "Afacad Flux", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
-
-.gloria-hallelujah-regular {
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* background */
 body{
   background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url("../../assets/img/photobooth.png");
@@ -49,31 +28,18 @@ h2, p{
 }
 
 /* design 1 */
-.handwriting{
-  position: absolute;
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 100;
-  font-size: 3vh;
-  bottom: 36.5vh;
-  right: 32.5vh;
-  transform: rotate(15deg);
-}
 
 .pfp{
-  border-top: 2rem;
-  border-left: 2rem;
-  border-bottom: 9rem;
-  border-right: 2rem;
-  border-style: solid;
-  border-color: white;
-  width: 20%;
+  max-width: 20%;
   height: auto;
   position: relative;
-  top: 50vh;
+  top: 47vh;
   left: 30vh;
   transform: rotate(15deg);
   margin: 0;
   padding: 0;
+  z-index: 10;
+  box-shadow: .9vh .9vh 1vh rgba(0, 0, 0, 0.5);
 }
 
 /* text-styles */
@@ -145,9 +111,9 @@ h2, p{
 
 .containerB{
   padding: 3vh 20vh;
-  background-color: aliceblue;
   width: 50%;
 }
+
 
 .first{
   border-top-left-radius: 50px;
@@ -158,9 +124,49 @@ h2, p{
 
 .second{
   position: relative;
-  background-color: rgb(11, 22, 0);
-  color: rgb(255, 240, 223);
+  background-color: rgb(255, 243, 230);
+  color: rgb(11, 22, 0);
 
+}
+.double {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for the double section */
+  background-color: #f0f0f0; /* Light gray for double sections */
+}
+
+.third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 20vh;
+  background-color: rgb(11,22,0);
+}
+
+.fourth{
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.left{
+  position: relative;
+  right: 7vh;
+  margin: 10vh 0 10vh 0;
+  padding: 0 10vh 8vh;
+  border-radius: 1vh;
+  background-color: rgb(245, 171, 13);
+  color: rgb(255, 243, 230);
+}
+
+.right{
+  position: relative;
+  left: 10vh;
+  margin: 10vh 0 10vh 0;
+  padding: 0 10vh 8vh;
+  border-radius: 1vh;
+  background-color: rgb(245, 171, 13);
+  color: rgb(255, 243, 230);
 }
 
 .headerB{
@@ -169,29 +175,207 @@ h2, p{
   text-align: right;
   line-height: 10vh;
   letter-spacing: .2vh;
+  margin: 7vh 0 2vh 0;
 }
 
-.subcontainerA{
+.subcontainerA {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Align items vertically in the center */
+  margin: 9vh 0 9vh 0; /* Reset any margins */
+}
+
+.imgB {
   position: relative;
+  width: 30%; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add some spacing between the image and the text */
+  right: 5vh;
+}
+
+.text{
+  position: relative;
+  display: grid;
   left: 10vh;
 }
-
 .desc{
-  margin: 1vh 0 3vh 0;
-  padding: 0;
+  margin: 3vh 0 3vh 0;
+  padding: 3vh 0 3vh 5vh;
   position: relative;
   font-size: 2vh;
+  font-weight: 500;
   align-items: center;
   justify-content: center;
   text-align: right;
+  letter-spacing: .15vh;
+  word-spacing: 1vh;
 }
 
-.imgB{
+.skills{
+  background-color: white;
+  padding: 0 20vh;
+}
+
+.headerC{
+  font-size: 10vh;
+  color: #8d0e0e;
+  padding: 0 20vh;
+}
+
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.workA, .workC{
   width: 30%;
   height: auto;
+}
+.workB{
   position: relative;
-  top: 50vh;
-  right: 30vh;
+  z-index: 10;
+  width: 60%;
+  height: auto;
+  box-shadow: 
+    -10vh 0 5vh rgba(0, 0, 0, 0.8), /* Shadow on the left */
+    10vh 0 5vh rgba(0, 0, 0, 0.8); /* Shadow on the right */
+}
+
+.workC{
+  width: 33.5%;
+}
+
+.headerD{
+  font-size: 7vh;
+  margin: 5vh 1vh;
+}
+
+li{
+  margin: 0;
+  padding: 0;
+  font-size: 2vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 100;
+  line-height: 4vh;
+}
+
+.containerC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15vh;
+  padding: 3vh;
+}
+
+.fifth{
+  background-color: rgb(255, 243, 230);
+  margin-bottom: 20vh;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: rgb(11, 22, 0);
+}
+
+.ss{
+  margin: 5vh 0 3vh;
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  font-size: 10vh;
+}
+
+li{
+  font-weight: 500;
+  font-size: 2.3vh;
+  margin: 1.5vh 0;
+}
+
+.footerB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: 2vh;
+  margin-bottom: 3vh;
+  font-size: 2.6vh;
+  font-weight: 400;
+}
+
+.headerE{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider{
+  border: none;
+  padding: 10vh;
 }
 
 
+
+.logoA{
+  width: 12%;
+  height: auto;
+}
+.logoB{
+  width: 16%;
+  height: auto;
+}
+.logoC{
+  width: 12%;
+  height: auto;
+  background-color: white;
+  padding: .1vh;
+  border-radius: 1vh;
+}
+.logoD{
+  width: 10%;
+  height: auto;
+  background-color: white;
+  padding: .8vh .45vh;
+  border-radius: 1vh;
+}
+.galleryA{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.galleryText{
+  
+  font-size: 3vh;
+}
+
+.containerH{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 12vh 0 15vh;
+}
+
+.logogallery{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4vh 0 2vh;
+}
+
+.Alogo{
+  width: 10%;
+  height: auto;
+}
+.Blogo{
+  width: 7%;
+  height: auto;
+}
+.Clogo{
+  width: 10%;
+  height: auto;
+}
