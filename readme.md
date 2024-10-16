@@ -115,4 +115,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Midterm Reference | This reference is used as a basis for my design in this project | https://www.behance.net/gallery/168253091/CV-2023?fbclid=IwY2xjawF3WOFleHRuA2FlbQIxMAABHfotDqnU72aIL8DR81dqGQLOOvW7SAKkP_eYvpbKEhJWooVXbmE1fKfATA_aem_gIr_Sw3H8RKKpd_FQMxy4Q |

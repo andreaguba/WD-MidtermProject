@@ -27,38 +27,11 @@ h2, p{
   font-weight: 300;
 }
 
-/* design 1 */
-
-.pfp{
-  max-width: 20%;
-  height: auto;
-  position: relative;
-  top: 47vh;
-  left: 30vh;
-  transform: rotate(15deg);
-  margin: 0;
-  padding: 0;
-  z-index: 10;
-  box-shadow: .9vh .9vh 1vh rgba(0, 0, 0, 0.5);
-}
-
 /* text-styles */
 .intro{
   color:white;
   position: fixed;
   line-height: 1vh;
-}
-
-.guide{
-  position: relative;
-  display: grid;
-  line-height: 3.5vh;
-  color: black;
-  background-color: rgb(255, 240, 223);
-  margin: 0;
-  padding: 5vh 5.5vh;
-  border-radius: 50%;
-  top: 35vh;
 }
 
 .introA{
@@ -81,6 +54,18 @@ h2, p{
   word-spacing: 10px;
 }
 
+.guide{
+  position: relative;
+  display: grid;
+  line-height: 3.5vh;
+  color: black;
+  background-color: rgb(255, 240, 223);
+  margin: 0;
+  padding: 5vh 5.5vh;
+  border-radius: 50%;
+  top: 35vh;
+}
+
 /* body-formatting */
 .mainbody{
   display: flex;
@@ -94,6 +79,63 @@ h2, p{
   justify-content: center;
 }
 
+.imgA{
+  max-width: 20%;
+  height: auto;
+  position: relative;
+  top: 47vh;
+  left: 30vh;
+  transform: rotate(15deg);
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  box-shadow: .9vh .9vh 1vh rgba(0, 0, 0, 0.5);
+}
+
+
+/* parent section */
+.containerB{
+  padding: 3vh 20vh;
+  width: 50%;
+}
+
+.first{ /* 1st sub section*/
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+.second{ /* 2nd sub section*/
+  position: relative;
+  background-color: rgb(255, 243, 230);
+  color: rgb(11, 22, 0);
+}
+
+.third{ /* 3rd sub section*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 20vh;
+  background-color: rgb(11,22,0);
+}
+
+.fourth{ /* 4th sub section*/
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.fifth{ /* 5th sub section*/
+  background-color: rgb(255, 243, 230);
+  margin-bottom: 20vh;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: rgb(11, 22, 0);
+}
+
+/* Main Title - First Section*/
 .headerA{
   position: relative;
   font-size: 10vh;
@@ -109,64 +151,25 @@ h2, p{
 }
 
 
-.containerB{
-  padding: 3vh 20vh;
-  width: 50%;
-}
+/* About Me - Second Section*/
 
-
-.first{
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  background-color: black;
-  color: white;
-}
-
-.second{
-  position: relative;
-  background-color: rgb(255, 243, 230);
-  color: rgb(11, 22, 0);
-
-}
-.double {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns for the double section */
-  background-color: #f0f0f0; /* Light gray for double sections */
-}
-
-.third{
+.subcontainerA {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0 20vh;
-  background-color: rgb(11,22,0);
+  margin: 9vh 0;
 }
 
-.fourth{
-  color: white;
-  background-color: rgb(0, 0, 0);
-}
-
-.left{
+.imgB {
   position: relative;
-  right: 7vh;
-  margin: 10vh 0 10vh 0;
-  padding: 0 10vh 8vh;
-  border-radius: 1vh;
-  background-color: rgb(245, 171, 13);
-  color: rgb(255, 243, 230);
+  width: 30%;
+  height: auto;
+  right: 5vh;
 }
 
-.right{
+.abtMe{
   position: relative;
+  display: grid;
   left: 10vh;
-  margin: 10vh 0 10vh 0;
-  padding: 0 10vh 8vh;
-  border-radius: 1vh;
-  background-color: rgb(245, 171, 13);
-  color: rgb(255, 243, 230);
 }
 
 .headerB{
@@ -178,26 +181,7 @@ h2, p{
   margin: 7vh 0 2vh 0;
 }
 
-.subcontainerA {
-  display: flex; /* Use flexbox for horizontal alignment */
-  align-items: center; /* Align items vertically in the center */
-  margin: 9vh 0 9vh 0; /* Reset any margins */
-}
-
-.imgB {
-  position: relative;
-  width: 30%; /* Set the width of the image */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 20px; /* Add some spacing between the image and the text */
-  right: 5vh;
-}
-
-.text{
-  position: relative;
-  display: grid;
-  left: 10vh;
-}
-.desc{
+.aboutMe{
   margin: 3vh 0 3vh 0;
   padding: 3vh 0 3vh 5vh;
   position: relative;
@@ -210,43 +194,29 @@ h2, p{
   word-spacing: 1vh;
 }
 
-.skills{
-  background-color: white;
-  padding: 0 20vh;
-}
+/* Skill and Software - Third Section*/
 
-.headerC{
-  font-size: 10vh;
-  color: #8d0e0e;
-  padding: 0 20vh;
-}
-
-.gallery{
+.containerC{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.workA, .workC{
-  width: 30%;
-  height: auto;
+
+.skills{
+  margin: 5vh 0 3vh;
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
 }
-.workB{
+
+.left{
   position: relative;
-  z-index: 10;
-  width: 60%;
-  height: auto;
-  box-shadow: 
-    -10vh 0 5vh rgba(0, 0, 0, 0.8), /* Shadow on the left */
-    10vh 0 5vh rgba(0, 0, 0, 0.8); /* Shadow on the right */
-}
-
-.workC{
-  width: 33.5%;
-}
-
-.headerD{
-  font-size: 7vh;
-  margin: 5vh 1vh;
+  right: 7vh;
+  margin: 10vh 0 10vh 0;
+  padding: 0 10vh 8vh;
+  border-radius: 1vh;
+  background-color: rgb(245, 171, 13);
+  color: rgb(255, 243, 230);
 }
 
 li{
@@ -256,69 +226,27 @@ li{
   align-items: center;
   justify-content: center;
   font-family: "Afacad Flux", sans-serif;
-  font-weight: 100;
-  line-height: 4vh;
-}
-
-.containerC{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.socials{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 15vh;
-  padding: 3vh;
-}
-
-.fifth{
-  background-color: rgb(255, 243, 230);
-  margin-bottom: 20vh;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  color: rgb(11, 22, 0);
-}
-
-.ss{
-  margin: 5vh 0 3vh;
-  font-size: 10vh;
-  display: flex;
-  justify-content: center;
-}
-.footer{
-  font-size: 10vh;
-}
-
-li{
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2.3vh;
-  margin: 1.5vh 0;
+  line-height: 6vh;
+  text-align: left;
 }
 
-.footerB{
+.right{
+  position: relative;
+  left: 10vh;
+  margin: 10vh 0 10vh 0;
+  padding: 0 10vh 8vh;
+  border-radius: 1vh;
+  background-color: rgb(245, 171, 13);
+  color: rgb(255, 243, 230);
+}
+
+.galleryA{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  word-spacing: 2vh;
-  margin-bottom: 3vh;
-  font-size: 2.6vh;
-  font-weight: 400;
 }
-
-.headerE{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.divider{
-  border: none;
-  padding: 10vh;
-}
-
-
 
 .logoA{
   width: 12%;
@@ -342,22 +270,54 @@ li{
   padding: .8vh .45vh;
   border-radius: 1vh;
 }
-.galleryA{
+
+/* Top Work Gallery - Fourth Section*/
+
+.headerC{
+  font-size: 7vh;
+  margin: 10vh 1vh;
+}
+
+.galleryB{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.galleryText{
-  
-  font-size: 3vh;
+.workA, .workC{
+  width: 30%;
+  height: auto;
+
+}
+.workB{
+  position: relative;
+  z-index: 10;
+  width: 60%;
+  height: auto;
+  box-shadow:
+    -10vh 0 5vh rgba(0, 0, 0, 0.8), /* Shadow on the left */
+    10vh 0 5vh rgba(0, 0, 0, 0.8); /* Shadow on the right */
 }
 
-.containerH{
+.workC{
+  width: 33.5%;
+}
+
+.containerD{
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 12vh 0 15vh;
+}
+
+.galleryText{
+  font-size: 3vh;
+}
+
+/* Socials - Fifth Section*/
+
+.socials{
+  font-size: 10vh;
 }
 
 .logogallery{
@@ -368,14 +328,34 @@ li{
 }
 
 .Alogo{
+  width: 11%;
+  height: auto;
+}
+
+.Blogo{
   width: 10%;
   height: auto;
 }
-.Blogo{
+
+.Clogo{
   width: 7%;
   height: auto;
 }
-.Clogo{
-  width: 10%;
-  height: auto;
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+  padding: 3vh;
+}
+
+.footerB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: 2vh;
+  margin-bottom: 1.5vh;
+  font-size: 2.6vh;
+  font-weight: 400;
 }
