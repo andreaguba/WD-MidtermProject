@@ -4,14 +4,14 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/andreaguba/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Project</h3>
+  <h3 align="center">Midterm Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Wala muna
+  This project is a single-page website focused on showcasing my ability as an artist as well as what I have learned in programming. Inside my website, you can see some of the basic personal information, as well as showcases of my work that I am proud of. Provided are some of my proficiencies as an artist and the applications I am using. Thank you for taking your time in reading this message.
 </div>
 
 <br />
