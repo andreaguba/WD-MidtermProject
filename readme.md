@@ -18,7 +18,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=andreaguba/WD-Project)
 
 ---
 
@@ -62,6 +62,12 @@ Guiding Question:
 - Whats the purpose
 - What are key components
 - What technology used and how it is used
+
+Guiding Question:
+- The project is about creating a website that showcases the artist similar to a portfolio or a curriculum vitae.
+- The purpose of this project is to showcase the understanding learned in programming as well as implementing design.
+- The key components of my project revovles around the simplicity of the design and the execution of the layout.
+- HTML and CSS is used in creating this website in which both content and design is implemented on their respective files.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
