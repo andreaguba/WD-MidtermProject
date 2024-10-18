@@ -56,13 +56,6 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 Guiding Question:
 - The project is about creating a website that showcases the artist similar to a portfolio or a curriculum vitae.
 - The purpose of this project is to showcase the understanding learned in programming as well as implementing design.
