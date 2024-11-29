@@ -14,6 +14,10 @@
   This project is a single-page website focused on showcasing my ability as an artist as well as what I have learned in programming. Inside my website, you can see some of the basic personal information, as well as showcases of my work that I am proud of. Provided are some of my proficiencies as an artist and the applications I am using. Thank you for taking your time in reading this message.
 </div>
 
+<br>
+
+[![wakatime](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/268486c6-ac69-4565-9a0b-4b20fa3bed20.svg)](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/268486c6-ac69-4565-9a0b-4b20fa3bed20)
+
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
